@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    height: 100%;update
+    color: white;
+}
+body{
+    background-image: linear-gradient(150deg, #21202cc0 70%,  
+    #2a2544b1 ), url( ./assest/image/cookie-the-pom-gySMaocSdqs-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 22px;
+    background: #001;
+    height: 35px;
+    font-size: 20px;
+}
+nav > *{
+    margin-right: 5px;
+   
+}
+nav > * > *{
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contact{
+    background: linear-gradient(#0b1331, #1c415a);
+    border: none;
+}
