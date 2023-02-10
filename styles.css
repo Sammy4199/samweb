@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    transition: .2s ease-in-out;
 }
 html{
     height: 100%;
@@ -36,7 +37,52 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
-.contact{
-    background: linear-gradient(#0b1331, #1c415a);
-    border: none;
+main{
+   text-align: center;
+}
+.work{
+    position: relative;
+    top: 180px;
+}
+h1{
+    font-size: 100px;
+}
+span{
+    font-size: 30px;
+}
+.em{
+    font-size: 20px;
+}
+.contacts{
+    margin-top: 40px;
+}
+.icon{
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 12px;
+    padding: 2px;
+}
+.fa-github{
+    border-radius: 50%;
+    padding: 0;
+}
+.icon:hover{
+     border: 10px solid rgba(215, 112, 68, 0.8);
+     transform: scale(2);
+     transition: 0.5s all ;
+}
+@media  screen and (max-width: 720px) {
+    h1{
+        font-size: 70px;
+    }
+    span{
+        font-size: 25px;
+    }
+    .em{
+        font-size: 18px;
+    }
+    .icon{
+        font-size: 35px;
+    }
+
 }
