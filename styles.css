@@ -62,14 +62,51 @@ span{
     border-radius: 12px;
     padding: 2px;
 }
-.fa-github{
-    border-radius: 50%;
-    padding: 0;
-}
+
+
 .icon:hover{
-     border: 10px solid rgba(215, 112, 68, 0.8);
      transform: scale(2);
      transition: 0.5s all ;
+}
+.fa-github:hover{
+    background-color: black;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+.work  .fa-linkedin{
+    color: rgb(13, 131, 216);
+}
+.work .fa-linkedin:hover{
+    border: 5px solid rgb(13, 131, 216) ;
+    background-color: rgb(13, 131, 216);
+    color: white;
+}
+.work .fa-twitter{
+    color: rgb(10, 99, 215);
+}
+.work .fa-twitter:hover{
+    border: 5px solid rgb(10, 99, 215) ;
+    background-color: rgb(10, 99, 215);
+    color: white;
+}
+.work .fa-instagram{
+   color: rgb(240, 106, 189)
+}
+.work .fa-instagram:hover{
+    border: 5px solid rgb(231, 68, 136) ;
+    background: linear-gradient(35deg, #aa1b9e 40%, #e43d38);
+    color: white;
+}
+.work .fa-whatsapp{
+    color: green;
+}
+.work .fa-whatsapp:hover{
+    color: white;
+    background-color: rgb(8, 164, 8);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: auto;
 }
 @media  screen and (max-width: 720px) {
     h1{
